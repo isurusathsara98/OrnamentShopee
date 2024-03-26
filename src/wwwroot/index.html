@@ -35,10 +35,14 @@
         tailwind.config = {
             theme: {
                 extend: {
+                    screens: {
+                        'xsm': '500px'
+                        // => @media (min-width: 500px) { ... }
+                    },
                     fontSize: {
                         xxs: ['1.65rem', '1.75rem']
                     }
-                }
+                },
             }
         }
     </script>
